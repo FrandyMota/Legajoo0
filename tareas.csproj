@@ -54,6 +54,57 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tarea2\Cap5\EjericiosCap5ejer4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tarea2\Cap7\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tarea2\Cap7\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tarea2\Cap8\ejerciciocap8ejer3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tarea2\Cap8\ejerciciocap8ejer3.Designer.cs">
+      <DependentUpon>ejerciciocap8ejer3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tarea2\Cap8\ejerciciocap8ejer5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tarea2\Cap8\ejerciciocap8ejer5.Designer.cs">
+      <DependentUpon>ejerciciocap8ejer5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tarea2\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tarea2\MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="tarea3\Capitulo10\Ejer1Cap10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tarea3\Capitulo10\Ejer1Cap10.Designer.cs">
+      <DependentUpon>Ejer1Cap10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="tarea3\Capitulo10\Ejer2Cap10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tarea3\Capitulo10\Ejer2Cap10.Designer.cs">
+      <DependentUpon>Ejer2Cap10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="tarea3\Capitulo9\Ejer1Cap9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tarea3\Capitulo9\Ejer1Cap9.Designer.cs">
+      <DependentUpon>Ejer1Cap9.cs</DependentUpon>
+    </Compile>
+    <Compile Include="tarea3\Capitulo9\Ejer3Cap9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tarea3\Capitulo9\Ejer3Cap9.Designer.cs">
+      <DependentUpon>Ejer3Cap9.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Legajo.resx">
       <DependentUpon>Legajo.cs</DependentUpon>
     </EmbeddedResource>
@@ -67,6 +118,33 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Tarea2\Cap5\EjericiosCap5ejer4.resx">
+      <DependentUpon>EjericiosCap5ejer4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tarea2\Cap7\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tarea2\Cap8\ejerciciocap8ejer3.resx">
+      <DependentUpon>ejerciciocap8ejer3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tarea2\Cap8\ejerciciocap8ejer5.resx">
+      <DependentUpon>ejerciciocap8ejer5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tarea2\MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tarea3\Capitulo10\Ejer1Cap10.resx">
+      <DependentUpon>Ejer1Cap10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tarea3\Capitulo10\Ejer2Cap10.resx">
+      <DependentUpon>Ejer2Cap10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tarea3\Capitulo9\Ejer1Cap9.resx">
+      <DependentUpon>Ejer1Cap9.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tarea3\Capitulo9\Ejer3Cap9.resx">
+      <DependentUpon>Ejer3Cap9.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -82,6 +160,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\14691131_1148376805197537_4607145573702911569_n foto1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Tarea2\Cap6\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
